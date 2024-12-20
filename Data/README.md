@@ -1,49 +1,39 @@
 # Submission Dicoding "Belajar Data Analytics dengan Python"
 
-## Project Data Analytics
+## Proyek Analisis Data
 
-Repository ini berisi proyek data analytics yang saya kerjakan. Deployment in **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
+Repositori ini berisi proyek analisis data yang telah saya buat.
 
 ## Deskripsi
 
-Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis.
+Tujuan dari proyek ini adalah untuk menganalisis data yang berasal dari E-Commerce Public Dataset. Hasil akhirnya adalah memperoleh wawasan dan informasi yang bermanfaat dari data yang telah dianalisis.
 
 ## Struktur Direktori
 
-- **/data**: Direktori ini berisi data yang digunakan dalam proyek, dalam format .csv .
-- **/dashboard**: Direktori ini berisi main.py yang digunakan untuk membuat dashboard hasil analisis data.
-- **Proyek_Analisis_Data_E_Commerce.ipynb**: File ini yang digunakan untuk melakukan analisis data.
+- **/data**: Folder ini berisi file data yang digunakan dalam proyek ini dalam format .csv.
+- **/dashboard**: Folder ini berisi file `main.py` yang digunakan untuk membuat dashboard yang menampilkan hasil analisis data.
+- **Proyek_Analisis_Data_E_Commerce.ipynb**: File Jupyter Notebook ini digunakan untuk melakukan analisis data.
 
 ## Instalasi
 
-1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
+1. Untuk meng-clone repositori ini ke komputer lokal Anda, jalankan perintah berikut:
 
    ```shell
-   git clone https://github.com/Mazwan98/dicoding.git
+   git clone https://github.com/Mad3angga/Proyek-Analisis-Data.git
    ```
 
-2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
+2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda bisa menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
 
    ```shell
    pip install streamlit
    pip install -r dashboard/requirements.txt
    ```
 
-## Penggunaan
+## Cara Menggunakan
 
-1. Masuk ke direktori proyek (Local):
+1. Pindah ke direktori proyek (Local):
 
    ```shell
    cd dicoding/dashboard/
    streamlit run main.py
    ```
-
-   Atau bisa dengan kunjungi website ini [Project Data Analytics](https://dicoding-tjan2lwsgz3l97a447szqk.streamlit.app/)
-
-   <img src="./dashboard/ss.png" alt="Streamlit logo"></img>
-
-
-
-## Kontribusi
-
-Anda dapat berkontribusi pada proyek ini dengan melakukan pull request. Pastikan untuk menjelaskan perubahan yang Anda usulkan secara jelas dan menyeluruh.
